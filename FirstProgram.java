@@ -1,7 +1,8 @@
 /* This is a
-two-line comment inherited from C */
+    two-line comment inherited from C */
 
-// This is a comment inherited from C++
+// This is a comment inherited from C++.
+// Has no end token
 
 /** This form provides information
  * to the javadoc utility, which will generate documentation
