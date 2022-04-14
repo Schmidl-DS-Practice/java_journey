@@ -38,6 +38,6 @@ public class OperatorTest
         // System.out.println(quotient);
 
         quotient = x / (double) y;
-        // System.out.println(quotient);
+        System.out.println(quotient);
     }
 }
