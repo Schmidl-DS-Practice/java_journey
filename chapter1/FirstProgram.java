@@ -1,6 +1,8 @@
 /* This is a
     two-line comment inherited from C */
 
+package chapter1;
+
 // This is a comment inherited from C++.
 // Has no end token
 

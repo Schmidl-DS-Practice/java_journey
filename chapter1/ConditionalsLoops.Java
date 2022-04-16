@@ -1,6 +1,8 @@
 /** Program that illustrates
  * conditionals and loops */
 
+package chapter1;
+
 public class ConditionalsLoops
 {
     public static void main(String[] args)

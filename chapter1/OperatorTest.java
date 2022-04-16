@@ -1,6 +1,8 @@
 /** Program that
  * illustrates operators */
 
+package chapter1;
+
 public class OperatorTest
 {
     // Program to illustrate basic operators
