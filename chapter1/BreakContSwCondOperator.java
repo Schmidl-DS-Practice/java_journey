@@ -15,18 +15,18 @@ public static void main(String[] args)
         if (i == 13)
             break;}
 
-    // outer:
-    //     while(a <= 20)
-    //         {while (a <= 15)
-    //             if (a == 12)
-    //                 break outer;
-    //             a += 1;} // Go to after outer
+    outer:
+        while(a <= 20)
+            {while (a <= 15)
+                if (a == 12)
+                    break outer;
+                a += 1;} // Go to after outer
     // Control passes here after outer loop is exited
 
-    // for (int b = 1; b <= 100; b++)
-    //     {if (b % 10 == 0)
-    //         continue;
-    //     System.out.println(b);}
+    for (int b = 1; b <= 100; b++)
+        {if (b % 10 == 0)
+            continue;
+        System.out.println(b);}
 
     int x = 2;
     int y = 3;
