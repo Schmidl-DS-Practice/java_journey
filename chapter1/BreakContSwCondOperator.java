@@ -30,24 +30,24 @@ public static void main(String[] args)
 
     int x = 2;
     int y = 3;
-    int minVal = x <= y ? x: y;
+    int minVal = x <= y ? x : y;
     System.out.println(minVal);
 
     /*switch(someCharacter)
         {
-            case '(';
-            case '[';
-            case '{';
+            case '(':
+            case '[':
+            case '{':
             // Code to process opening symbols
             break;
 
-            case ')';
-            case ']';
-            case '}';
+            case ')':
+            case ']':
+            case '}':
             // Code to process closing symbols
             break;
 
-            case '\n';
+            case '\n':
             // Code to handle newline character
             break;
 
