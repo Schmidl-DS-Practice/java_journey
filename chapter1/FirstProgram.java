@@ -3,10 +3,10 @@
 
 package chapter1;
 
-// This is a comment inherited from C++.
+// This is a single-line comment inherited from C++.
 // Has no end token
 
-/** This form provides information
+/** This form is a doc string as in Python. It  provides information
  * to the javadoc utility, which will generate documentation
  * from comments */
 
@@ -17,6 +17,7 @@ public class FirstProgram
 {
     public static void main(String[] args)
     {
-        System.out.println("Is there anybody out there?");
+        String s = "Is there anybody out there?";
+        System.out.println(s);
     }
 }
