@@ -9,13 +9,13 @@ public class Exercises
         // IN THEORY
         // q111(); // see function
         // q112(); // true
-        q113(); //
+        // q113(); // the for and while are not equivalent
         // int x = 0;
         // q114(x); // does nothing
         // System.out.println(x); // prints 0
 
         // IN PRACTICE
-        q115();
+        // q115(); done
         q116();
         q117();
         q118();
@@ -86,9 +86,12 @@ public class Exercises
 
     // IN PRACTICE
     // 1.15)
-    public static void q115()
+    public static void q115() // cool
         {
-
+            double i = 1.5;
+            while (i <= 2.3)
+                i += 0.1;
+            System.out.println(i);
         }
     // 1.16)
     public static void q116()
