@@ -7,11 +7,11 @@ public class Exercises
     public static void main(String [] args)
     {
         // IN THEORY
-        // q111();
-        // q112();
-        q113();
+        // q111(); // see function
+        // q112(); // true
+        q113(); //
         // int x = 0;
-        // q114(x);
+        // q114(x); // does nothing
         // System.out.println(x); // prints 0
 
         // IN PRACTICE
@@ -62,19 +62,21 @@ public class Exercises
     // 1.13)
     public static void q113()
     {
-        for (int i = 0; i <= 20; i++)
+        for (int i = 0; i <= 20; i++) // continues to increment
         {
             if (i == 13)
                 continue;
+            System.out.println(i);
         }
 
-        int i = 0;
-        while (i <= 20)
+        int a = 0;
+        while (a <= 20) // doesn't continue to increment. The continue in the if statement prevents a from moving on passed 13
         {
-            if (i == 13)
+            if (a == 13)
                 continue;
-            i++;
-        }
+            a++;
+            System.out.println(a);
+        };
     }
     // 1.14)
     public static void q114(int x) // does nothing
