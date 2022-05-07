@@ -16,7 +16,7 @@ public class Exercises
 
         // IN PRACTICE
         // q115(); done
-        q116();
+        // q116(); done
         q117();
         q118();
 
@@ -94,9 +94,13 @@ public class Exercises
             System.out.println(i);
         }
     // 1.16)
-    public static void q116()
+    public static void q116() // cool
         {
-
+            for (int i = 1; i <= 9; i += 1)
+                {System.out.println("Multiplication" + " Addition");
+                for (int j = 1; j <= 9; j +=1)
+                    System.out.println(i + " x " + j + " = "
+                    + i * j + "       " + i + " + " + j + " = " + (i + j));}
         }
     // 1.17)
     public static void q117()
