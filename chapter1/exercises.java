@@ -17,7 +17,8 @@ public class Exercises
         // IN PRACTICE
         // q115(); done
         // q116(); done
-        q117();
+        q117amax(1, 2, 3);
+        q117bmax(1, 2, 3, 4);
         q118();
 
         // PROGRAMMING PROJECTS
@@ -103,9 +104,27 @@ public class Exercises
                     + i * j + "       " + i + " + " + j + " = " + (i + j));}
         }
     // 1.17)
-    public static void q117()
+    public static void q117amax(int x, int y, int z)
         {
+            int[] intarray = {x , y, z};
+            int maxNum = x;
 
+            for (int j : intarray)
+                if (j > maxNum)
+                    maxNum = j;
+
+            System.out.println(maxNum);
+        }
+    public static void q117bmax(int x, int y, int z, int a)
+        {
+            int[] intarray = {x , y, z, a};
+            int maxNum = x;
+
+            for (int j : intarray)
+                if (j > maxNum)
+                    maxNum = j;
+
+            System.out.println(maxNum);
         }
     // 1.18)
     public static void q118()
