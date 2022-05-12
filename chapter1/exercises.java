@@ -19,7 +19,7 @@ public class Exercises
         // q116(); done
         q117amax(1, 2, 3);
         q117bmax(1, 2, 3, 4);
-        q118();
+        q118(1987);
 
         // PROGRAMMING PROJECTS
         q119();
@@ -127,7 +127,7 @@ public class Exercises
             System.out.println(maxNum);
         }
     // 1.18)
-    public static void q118()
+    public static void q118(int year)
         {
 
         }
