@@ -17,8 +17,8 @@ public class Exercises
         // IN PRACTICE
         // q115(); done
         // q116(); done
-        q117amax(1, 2, 3);
-        q117bmax(1, 2, 3, 4);
+        // q117amax(1, 2, 3); done
+        // q117bmax(1, 2, 3, 4); done
         q118(1987);
 
         // PROGRAMMING PROJECTS
@@ -129,7 +129,18 @@ public class Exercises
     // 1.18)
     public static void q118(int year)
         {
-
+            if (year < -45)
+                System.out.println("Invalid Year. Less Than -45.");
+            else if (year == -1)
+                year = 1;
+            else if (year >= -45 & year <= -2)
+                year += 1;
+            else if (year == 0)
+                System.out.println("Invalid Year. There does not exist a year zero.");
+            else if (year % 4 == 0)
+                System.out.println(true);
+            else
+                System.out.println(false);
         }
 
     // PROGRAMMING PROJECTS
