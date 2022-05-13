@@ -137,7 +137,7 @@ public class Exercises
                 year += 1;
             else if (year == 0)
                 System.out.println("Invalid Year. There does not exist a year zero.");
-            else if (year % 4 == 0)
+            if (year % 4 == 0)
                 System.out.println(true);
             else
                 System.out.println(false);
