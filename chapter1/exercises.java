@@ -149,9 +149,10 @@ public class Exercises
     {
         for (int b=2; b<1000; b+=1)
             {for (int a; a<b; a+=1)
-                if ((a**2 + b**2 + 1)/(a*b))
-            };
 
+
+
+            };
     }
     // 1.20)
     public static void q120()
