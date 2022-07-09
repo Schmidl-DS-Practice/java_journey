@@ -145,7 +145,7 @@ public class Exercises
 
     // PROGRAMMING PROJECTS
     // 1.19)
-    // pairs of positive integers such that a < b < 1000 and (a**2 + b**2 +1)/(a*b) is in integer
+    // all pairs of positive integers, (a, b), such that a < b < 1000 and (a**2 + b**2 +1) / (a*b) is in integer
     public static void q119()
     {
         int a;
