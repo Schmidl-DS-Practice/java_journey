@@ -19,7 +19,7 @@ public class Exercises
         // q116(); done
         // q117amax(1, 2, 3); done
         // q117bmax(1, 2, 3, 4); done
-        q118(1987);
+        // q118(1987);
 
         // PROGRAMMING PROJECTS
         q119();
@@ -145,13 +145,17 @@ public class Exercises
 
     // PROGRAMMING PROJECTS
     // 1.19)
+    // pairs of positive integers such that a < b < 1000 and (a**2 + b**2 +1)/(a*b) is in integer
     public static void q119()
     {
         int a;
         int b;
-        for (b=2; b<1000; b+=1)
-            for (a=1; a<b; a+=1)
-                System.out.print(a + b);
+        for (b = 2; b < 1000; b += 1){
+            a = 1;
+            while (a < b){
+                if((a*a + b*b + 1) % (a*b) == 0)
+                    System.out.println("value of a: " + a + ", value of b: " + b);
+                a += 1;}}
     }
     // 1.20)
     public static void q120()
