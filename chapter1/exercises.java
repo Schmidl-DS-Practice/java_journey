@@ -2,6 +2,8 @@
 
 package chapter1;
 
+import java.util.*;
+
 public class Exercises
 {
     public static void main(String [] args)
@@ -22,8 +24,8 @@ public class Exercises
         // q118(1987);
 
         // PROGRAMMING PROJECTS
-        q119();
-        q120();
+        // q119();
+        q120(1998);
         q121();
         q122();
     }
@@ -157,8 +159,28 @@ public class Exercises
                 a += 1;}}
     }
     // 1.20)
-    public static void q120()
+    public static void q120(int numeral)
     {
+        Dictionary<String, Integer> d = new Hashtable<String, Integer>();
+        d.put("M", 1000);
+        d.put("D", 500);
+        d.put("C", 100);
+        d.put("L", 50);
+        d.put("X", 10);
+        d.put("V", 5);
+        d.put("I", 1);
+
+        String numeral_string = Integer.toString(numeral);
+
+        // loop through each element
+        for(int i = 0; i<numeral_string.length(); i++){
+
+            // access each character
+            char a = numeral_string.charAt(i);
+            System.out.println(a);}
+
+
+
 
     }
     // 1.21)
