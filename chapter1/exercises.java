@@ -163,11 +163,17 @@ public class Exercises
     {
         Dictionary<String, Integer> d = new Hashtable<String, Integer>();
         d.put("M", 1000);
+        d.put("CM", 900);
         d.put("D", 500);
+        d.put("CD", 400);
         d.put("C", 100);
+        d.put("XC", 90);
         d.put("L", 50);
+        d.put("XL", 40);
         d.put("X", 10);
+        d.put("IX", 9);
         d.put("V", 5);
+        d.put("IV", 4);
         d.put("I", 1);
 
         String numeral_string = Integer.toString(numeral);
