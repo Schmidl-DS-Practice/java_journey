@@ -179,9 +179,6 @@ public class Exercises
             char a = numeral_string.charAt(i);
             System.out.println(a);}
 
-
-
-
     }
     // 1.21)
     public static void q121()
